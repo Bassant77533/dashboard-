@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>files</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- start page  -->
+    <div class="page d-flex">
+        <!-- start sidebar  -->
+        <div class="sidebar bg-white p-20 position-reltive">
+            <h3 class="position-relative mt-0 text-center">Bassant</h3>
+            <ul>
+                <li>
+                <a class=" d-flex align-center fs-14 text-black rad-6 p-10" href="index.html">
+                <i class="fa-regular fa-chart-bar fa-fw"></i>
+                <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a class=" d-flex align-center fs-14 text-black rad-6 p-10" href="settings.html">
+                <i class="fa-solid fa-gear fa-fw"></i>
+                <span>Settings</span>
+                </a>
+            </li>
+            <li>
+                <a class=" d-flex align-center fs-14 text-black rad-6 p-10" href="profile.html">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <span>Profile</span>
+                </a>
+            </li>
+            <li>
+                <a class="d-flex align-center fs-14 text-black rad-6 p-10" href="projects.html">
+                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a class=" d-flex align-center fs-14 text-black rad-6 p-10" href="courses.html">
+                <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                <span>Courses</span>
+                </a>
+            </li>
+            <li>
+                <a class="  d-flex align-center fs-14 text-black rad-6 p-10" href="friends.html">
+                <i class="fa-regular fa-circle-user fa-fw"></i>
+                <span>Friends</span>
+                </a>
+            </li>
+            <li>
+                <a class="active d-flex align-center fs-14 text-black rad-6 p-10" href="files.html">
+                <i class="fa-regular fa-file fa-fw"></i>
+                <span>Files</span>
+                </a>
+            </li>
+            <li>
+                <a class="d-flex align-center fs-14 text-black rad-6 p-10" href="plans.html">
+                <i class="fa-regular fa-credit-card fa-fw"></i>
+                <span>Plans</span>
+                </a>
+            </li>
+            </ul>
+        </div>
+        <!-- End sidebar  -->
+        <!-- start conent  -->
+        <div class="content w-full">
+            <!-- start header  -->
+            <div class="header bg-white flex-between p-15">
+                <div class="search position-relative ">
+                    <input class="p-10" type="text" placeholder="Type a word ">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification position-relative">
+                        <i class="fa-regular fa-bell"></i>
+                    </span>
+                    <img src="images/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- end header  -->
+            <h1 class="position-relative">Files</h1>
+            <!-- start wrapper  --> 
+            <div class="files-page d-flex m-20 gap-20">
+                <!-- start item   -->
+                <div class="item  bg-white p-20 rad-6 text-center-mobile ">
+                    <div class="stat h-full ">
+                        <h2 class="mt-10">Files Statistics</h2>
+                        <div class="statistics d-flex align-center mb-10 ">
+                            <i class="fa-solid fa-file-pdf blue-trans me-10 c-blue"></i>
+                            <div class="">
+                                <span class="fs-14">PDF Files </span>
+                                <p class="mt-5 mb-0 color-gray fs-14">130</p>
+                            </div>
+                            <span class="d-block ms-auto color-gray fs-14">6.5GB</span>
+                        </div>
+                        <div class="statistics d-flex align-center mb-10 ">
+                            <i class="fa-regular  fa-image green-trans me-10 c-green"></i>
+                            <div class="">
+                                <span class="fs-14">images </span>
+                                <p class="mt-5 mb-0 color-gray fs-14">115</p>
+                            </div>
+                            <span class="d-block ms-auto color-gray fs-14">3.5GB</span>
+                        </div>
+                        <div class="statistics d-flex align-center mb-10 ">
+                            <i class="fa-regular  fa-file-word orange-trans me-10 c-orange"></i>
+                            <div class="">
+                                <span class="fs-14">word files </span>
+                                <p class="mt-5 mb-0 color-gray fs-14">110</p>
+                            </div>
+                            <span class="d-block ms-auto color-gray fs-14">3.2GB</span>
+                        </div>
+                        <div class="statistics d-flex align-center mb-10 ">
+                            <i class="fa-solid  fa-file-csv red-trans me-10 c-red"></i>
+                            <div class="">
+                                <span class="fs-14">csv files </span>
+                                <p class="mt-5 mb-0 color-gray fs-14">12</p>
+                            </div>
+                            <span class="d-block ms-auto color-gray fs-14">3.2GB</span>
+                        </div> 
+                        <button class="mt-20 d-block color-white bg-blue rad-6 w-fitcontent p-10 border-none fs-14 mx-auto"><i class="me-10 fa-solid fa-arrow-up arrow"></i>Upload</button>
+                    </div>
+                </div>
+                <!-- end item   -->
+                <div class="files-wrapper d-grid flex-1 ">
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/eps.svg" alt="">
+                            <p class="text-center">my-file.eps</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">10/08/2020 </span>
+                            <span class="color-gray fs-14">2.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/pdf.svg" alt="">
+                            <p class="text-center">my-file.pdf</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/06/2020 </span>
+                            <span class="color-gray fs-14">5.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/psd.svg" alt="">
+                            <p class="text-center">my-file.psd</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">9/06/2020 </span>
+                            <span class="color-gray fs-14">5.8MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/avi.svg" alt="">
+                            <p class="text-center">my-file.avi</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/09/2020 </span>
+                            <span class="color-gray fs-14">9.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/dll.svg" alt="">
+                            <p class="text-center">my-file.dll</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/06/2020 </span>
+                            <span class="color-gray fs-14">10MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/png.svg" alt="">
+                            <p class="text-center">my-file.png</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/06/2020 </span>
+                            <span class="color-gray fs-14">12MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/eps.svg" alt="">
+                            <p class="text-center">my-file.eps</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">10/06/2020 </span>
+                            <span class="color-gray fs-14">3.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/psd.svg" alt="">
+                            <p class="text-center">my-file.psd</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/10/2020 </span>
+                            <span class="color-gray fs-14">4.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/eps.svg" alt="">
+                            <p class="text-center">my-file.eps</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">10/08/2020 </span>
+                            <span class="color-gray fs-14">2.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/pdf.svg" alt="">
+                            <p class="text-center">my-file.pdf</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/06/2020 </span>
+                            <span class="color-gray fs-14">5.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/psd.svg" alt="">
+                            <p class="text-center">my-file.psd</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">9/06/2020 </span>
+                            <span class="color-gray fs-14">5.8MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/avi.svg" alt="">
+                            <p class="text-center">my-file.avi</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/09/2020 </span>
+                            <span class="color-gray fs-14">9.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/dll.svg" alt="">
+                            <p class="text-center">my-file.dll</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/06/2020 </span>
+                            <span class="color-gray fs-14">10MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/png.svg" alt="">
+                            <p class="text-center">my-file.png</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/06/2020 </span>
+                            <span class="color-gray fs-14">12MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/eps.svg" alt="">
+                            <p class="text-center">my-file.eps</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">10/08/2020 </span>
+                            <span class="color-gray fs-14">2.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/pdf.svg" alt="">
+                            <p class="text-center">my-file.pdf</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/06/2020 </span>
+                            <span class="color-gray fs-14">5.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/psd.svg" alt="">
+                            <p class="text-center">my-file.psd</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">9/06/2020 </span>
+                            <span class="color-gray fs-14">5.8MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/eps.svg" alt="">
+                            <p class="text-center">my-file.eps</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">10/06/2020 </span>
+                            <span class="color-gray fs-14">3.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/pdf.svg" alt="">
+                            <p class="text-center">my-file.pdf</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/06/2020 </span>
+                            <span class="color-gray fs-14">5.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/psd.svg" alt="">
+                            <p class="text-center">my-file.psd</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">9/06/2020 </span>
+                            <span class="color-gray fs-14">5.8MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/avi.svg" alt="">
+                            <p class="text-center">my-file.avi</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/09/2020 </span>
+                            <span class="color-gray fs-14">9.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/eps.svg" alt="">
+                            <p class="text-center">my-file.eps</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">10/06/2020 </span>
+                            <span class="color-gray fs-14">3.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/psd.svg" alt="">
+                            <p class="text-center">my-file.psd</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">20/10/2020 </span>
+                            <span class="color-gray fs-14">4.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                    <!-- start item   -->
+                    <div class="item  bg-white p-15 rad-6">
+                        <div class="text border-eee pb-10" >
+                            <i class="fa-solid fa-download color-gray"></i>
+                            <img class=" d-block mx-auto" src="images/eps.svg" alt="">
+                            <p class="text-center">my-file.eps</p>
+                            <span class="color-gray fs-14">elzero</span>
+                        </div>
+                        <div class="date-space flex-between mt-10">
+                            <span class="color-gray fs-14">10/08/2020 </span>
+                            <span class="color-gray fs-14">2.5MG</span>
+                        </div>
+                    </div>
+                    <!-- end item   -->
+                </div>
+            </div>
+            <!-- end wrapper  -->
+        </div>
+        <!-- end content  -->
+    </div>
+    <!-- end page  -->
+</body>
+</html>
+
